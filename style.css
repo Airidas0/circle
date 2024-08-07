@@ -17,8 +17,8 @@ body{
     -webkit-filter: blur(2px);
 }
 .calc{
-    background-color: hsl(0, 2%, 68%); /* Fallback color */
-    background-color: hsla(0, 1%, 83%, 0.456); /* Black w/opacity/see-through */
+    background-color: hsl(0, 2%, 68%); 
+    background-color: hsla(0, 1%, 83%, 0.456); 
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
