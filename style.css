@@ -50,10 +50,10 @@ body{
 }
 .calc input:hover{
     background-color: hsla(0, 1%, 83%, 0.65);
-   
+    font-size: 14px;
     
 }
 .calc button:hover{
     background-color: hsla(0, 1%, 83%, 0.65);
-   
+    font-size: 14px;
 }
