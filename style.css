@@ -17,7 +17,6 @@ body{
     -webkit-filter: blur(2px);
 }
 .calc{
-    background-color: hsl(0, 2%, 68%); 
     background-color: hsla(0, 1%, 83%, 0.456); 
     position: absolute;
     transform: translate(-50%, -50%);
@@ -38,9 +37,9 @@ body{
 }
 .calc button{
     background-color: hsla(0, 1%, 83%, 0.456);
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid black;
-    border-radius: 50px;
+
 }
 .calc input{
     background-color: hsla(0, 1%, 83%, 0.292);
@@ -56,4 +55,18 @@ body{
 .calc button:hover{
     background-color: hsla(0, 1%, 83%, 0.65);
     font-size: 14px;
+}
+.calc:hover{
+    background-color: hsla(0, 0%, 89%, 0.456);
+
+}
+@media only screen and (max-width: 500px){
+    .calc input:hover{
+        font-size: 13.5px;
+        touch-action: manipulation;
+    }
+    .calc button:hover{
+        font-size: 13.4px;
+        touch-action: manipulation;
+    }
 }
