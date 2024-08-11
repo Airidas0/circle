@@ -36,6 +36,10 @@ body{
 
     
 }
+#myresult{
+    padding-top: 0px;
+    margin-top: 5px;
+}
 .calc button{
     background-color: hsla(0, 1%, 83%, 0.456);
     border-radius: 5px;
