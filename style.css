@@ -63,11 +63,18 @@ body{
 }
 @media only screen and (max-width: 600px){
     .calc input:hover{
-        font-size: 0.9em;
+        font-size: 0.8em;
         touch-action: manipulation;
     }
+    .calc button{
+        font-size: 0.8em;
+    }
+    .calc input{
+        font-size: 0.8em;
+    }
     .calc button:hover{
-        font-size: 0.9em;
+
+        font-size: 0.8em;
         touch-action: manipulation;
     }
 }
