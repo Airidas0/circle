@@ -39,34 +39,35 @@ body{
     background-color: hsla(0, 1%, 83%, 0.456);
     border-radius: 5px;
     border: 1px solid black;
+    font-size: 0.9em;
+    
 
 }
 .calc input{
     background-color: hsla(0, 1%, 83%, 0.292);
     border:1px  solid black;
     border-radius: 3px;
-    
+    font-size: 0.9em;
 }
 .calc input:hover{
     background-color: hsla(0, 1%, 83%, 0.65);
-    font-size: 14px;
-    
+    font-size: 15px;
 }
 .calc button:hover{
     background-color: hsla(0, 1%, 83%, 0.65);
-    font-size: 14px;
+    font-size: 15px;
 }
 .calc:hover{
     background-color: hsla(0, 0%, 89%, 0.456);
 
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     .calc input:hover{
-        font-size: 13.5px;
+        font-size: 0.9em;
         touch-action: manipulation;
     }
     .calc button:hover{
-        font-size: 13.4px;
+        font-size: 0.9em;
         touch-action: manipulation;
     }
 }
